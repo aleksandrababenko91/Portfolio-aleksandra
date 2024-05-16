@@ -1,7 +1,6 @@
-import Header from '@/src/components/shared/Header/Header';
-import Footer from '@/src/components/shared/Footer/Footer';
-import "./globals.css";
-
+import Header from '../components/shared/Header/Header';
+import Footer from '../components/shared/Footer/Footer';
+import "../app/styles/global.scss";
 
 export const metadata = {
   title: "Portfolio Aleksandra Babenko",
@@ -12,9 +11,11 @@ export default function LocaleLayout ({ children, params: { locale } }) {
   return (
     <html lang="en">
       <body>
-        <Header />
-        {children}
-        <Footer />
+        <div className="wrapper">
+          <Header />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );

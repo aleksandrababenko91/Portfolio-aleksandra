@@ -1,7 +1,26 @@
-import FooterLinks from "../FooterLinks/FooterLinks"
+import SocialIcons from "../SocialIcons/SocialIcons";
+import styles from './footer.module.scss';
+import { v4 as uuidv4 } from 'uuid';
+import{items} from './items';
+import '../../../app/styles/global.scss'
+import MenuSection from "./MenuSection/MenuSection";
+import Image from "next/image";
+
+
 export default function Footer () {
 
   return(
-    <main>Footer </main>
+    <footer>
+      <div className={styles.container}>
+        <div className={styles.links}>
+          <MenuSection />
+        </div>
+        <div className={styles.icon}>
+          {items.map((item) => {
+            return <SocialIcons key={uuidv4()}  item={item}/>
+          })}
+        </div>
+      </div>
+    </footer>
   )
 }

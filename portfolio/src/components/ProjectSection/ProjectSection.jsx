@@ -1,5 +1,11 @@
+import styles from './project.module.scss';
+
 export default function ProjectSectiion () {
   return(
-    <main>Projects</main>
+    <section>
+      <div className={styles.container}>
+
+      </div>
+    </section>
   )
 }

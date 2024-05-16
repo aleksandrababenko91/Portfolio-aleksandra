@@ -1,5 +1,12 @@
+import MenuSection from './MenuSection/MenuSection'
+import styles from './header.module.scss'
+
 export default function Header () {
   return(
-    <main>Header</main>
+    <header className={styles.header}>
+      <div className={styles.menuSections}>
+        <MenuSection />
+      </div>
+    </header>
   )
 }
