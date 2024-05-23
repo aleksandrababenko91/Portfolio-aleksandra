@@ -5,7 +5,6 @@ import CVSection from '../components/CVSection/CVSection';
 import ToolsSection from '../components/ToolsSection/ToolsSection';
 
 
-
 export default function Home() {
 
   return(

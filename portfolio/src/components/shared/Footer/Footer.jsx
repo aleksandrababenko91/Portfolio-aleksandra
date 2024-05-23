@@ -11,7 +11,7 @@ export default function Footer () {
 
   return(
     <footer>
-      <div className={styles.container}>
+      <div className={styles.footer}>
         <div className={styles.links}>
           <MenuSection />
         </div>

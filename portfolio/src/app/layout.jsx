@@ -7,11 +7,11 @@ export const metadata = {
   description: "Front-end developer Portfolio",
 };
 
-export default function LocaleLayout ({ children, params: { locale } }) {
+export default function LocaleLayout ({ children }) {
   return (
     <html lang="en">
       <body>
-        <div className="wrapper">
+        <div className="layout">
           <Header />
           {children}
           <Footer />

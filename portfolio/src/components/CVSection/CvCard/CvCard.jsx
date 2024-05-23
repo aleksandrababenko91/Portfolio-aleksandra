@@ -1,7 +1,5 @@
 import styles from './cvCard.module.scss';
 
-import Link from "next/link";
-
 export default function CvCard({ item }) {
 
   const downloadPdf = () => {

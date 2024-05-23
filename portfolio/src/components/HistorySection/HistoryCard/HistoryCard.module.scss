@@ -1,0 +1,24 @@
+@use '../../../app/styles/variables' as var;
+@use '../../../app/styles/mixins' as mx;
+
+
+.item {
+  width: 400px;
+  height: fit-content;
+  margin: 20px auto;
+  padding: 25px;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.date {  
+  @include mx.apply-font-styles(var.$h2-font);
+}
+.position  {  
+  @include mx.apply-font-styles(var.$text-16-font);
+  color: var.$secondary-black;
+}
+.description {
+  @include mx.apply-font-styles(var.$text-16-font);
+}
