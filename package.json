@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aleksandrababenko91.github.io/<your-repo-name>",
+  "homepage": "https://aleksandrababenko91.github.io/Portfolio-aleksandra",
 
   "scripts": {
     "dev": "next dev",
