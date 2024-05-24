@@ -1,13 +1,13 @@
 "use client";
 
 import AOS from "aos";
-import HistoryCard from "./HistoryCard/HistoryCard";
+import ExperienceCard from "./ExperienceCard/ExperienceCard";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
 import { items } from './items';
-import styles from './HistorySection.module.scss';
+import styles from './ExperienceSection.module.scss';
 
-export default function HistorySection() {
+export default function ExperienceSection() {
 
   useEffect(() => {
     AOS.init({
@@ -24,7 +24,7 @@ export default function HistorySection() {
       <div className={styles.containerItems}>
       {items.map((item, index) => (
         <div  key={index}>
-          <HistoryCard item={item} isOdd={index % 2 !== 0} />
+          <ExperienceCard item={item} isOdd={index % 2 !== 0} />
         </div>
       ))}
       </div>

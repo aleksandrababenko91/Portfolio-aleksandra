@@ -1,6 +1,6 @@
-import styles from './HistoryCard.module.scss';
+import styles from './ExperienceCard.module.scss';
 
-export default function HistoryCard({item, isOdd}) {
+export default function ExperienceCard({item, isOdd}) {
   const { position, date, description } = item;
   return (
     <div className={styles.item} data-aos={isOdd ? "fade-left" : "fade-right"}>

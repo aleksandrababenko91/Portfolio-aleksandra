@@ -10,49 +10,8 @@ $primary-fon:  #f3ceb9;
 $primary-fon-card: #f3ceb9;
 $primary-border: #e97216;
 $primary-container: rgba(167, 88, 54, 0.2);
-//====Gradient Button====================================================================================================================================================
-$button-gradient1: #6c2276;
-$button-gradient2: #682d78;
-$button-gradient3: #643579;
-$button-gradient4: #613b7a;
-$button-gradient5: #5d447c;
 
-$button-gradient: linear-gradient(
-  130deg,
-  $button-gradient1 0%,
-  $button-gradient2 32%,
-  $button-gradient3 56%,
-  $button-gradient4 75%,
-  $button-gradient5 91%
-);
-//=Gradient Icons=======================================================================================================================================================
-$icon-gradient1: #e37cc1;
-$icon-gradient2: #e231a8;
-$icon-gradient3: #9d2f79;
-$icon-gradient4: #851a62;
 
-$icons-gradient: linear-gradient(
-  90deg,
-  $icon-gradient1 0%,
-  $icon-gradient2 37%,
-  $icon-gradient3 76%,
-  $icon-gradient4 100%
-);
-//=Gradient Fon=======================================================================================================================================================
-$fon-gradient1: #db97c5;
-$fon-gradient2: #cc4fa3;
-$fon-gradient3: #a03a7e;
-$fon-gradient4: #6d2656;
-$fon-gradient4: #490735;
-
-$primary-gradient: linear-gradient(
-  90deg,
-  $fon-gradient1 0%,
-  $fon-gradient2 17%,
-  $fon-gradient3 40%,
-  $fon-gradient4 79%,
-  $fon-gradient4 100%
-);
 //=Secondary colors=======================================================================================================================================================
 $secondary-black: #030110;
 $secondary-white: #fcfcfc;

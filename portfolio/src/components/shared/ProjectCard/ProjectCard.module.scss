@@ -1,5 +1,5 @@
 @use "../../../app/styles/variables" as var;
-@use "../../../app/styles/mixins" as mx;
+@use "../../../app/styles/mixins" as mixin;
 
 
 .cardContainer {
@@ -12,11 +12,11 @@
   overflow: hidden;
   padding: 0;
 
-  @include mx.media-q("md") {
+  @include mixin.media-q("md") {
     max-height: 485px;
   }
 
-  @include mx.media-q("xl") {
+  @include mixin.media-q("xl") {
     max-width: 397px;
     max-height: 514px;
   }
@@ -26,7 +26,7 @@
   max-width: 350px;
   height: 242px;
 
-  @include mx.media-q("xl") {
+  @include mixin.media-q("xl") {
     max-width: 397px;
   }
 }
@@ -34,11 +34,11 @@
 .wrapper {
   padding: 24px 16px;
 
-  @include mx.media-q("md") {
+  @include mixin.media-q("md") {
     padding-bottom: 16px;
   }
 
-  @include mx.media-q("xl") {
+  @include mixin.media-q("xl") {
     padding: 32px 24px 24px 24px;
   }
 }
@@ -48,16 +48,16 @@
   height: 184px;
   margin-bottom: 16px;
 
-  @include mx.media-q("md") {
+  @include mixin.media-q("md") {
     height: 148px;
   }
 
-  @include mx.media-q("xl") {
+  @include mixin.media-q("xl") {
     margin-bottom: 24px;
   }
 
   h3 {
-    @include mx.apply-font-styles(var.$h2-font);
+    @include mixin.apply-font-styles(var.$h2-font);
     font-weight: 700;
 
     margin-bottom: 16px;
@@ -66,7 +66,7 @@
   }
 
   p {
-    @include mx.apply-font-styles(var.$text-16-font);
+    @include mixin.apply-font-styles(var.$text-16-font);
 
     overflow: hidden;
     text-overflow: ellipsis;
@@ -76,14 +76,14 @@
 
     color: var.$secondary-black;
 
-    @include mx.media-q("md") {
+    @include mixin.media-q("md") {
       -webkit-line-clamp: 4;
     }
   }
 }
 
 .linkRead {
-  @include mx.apply-font-styles(var.$text-16-font);
+  @include mixin.apply-font-styles(var.$text-16-font);
 
   display: block;
   padding: 10px 4px;
