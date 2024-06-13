@@ -15,5 +15,10 @@ export const items = [
     image: "/icons/telegram.svg",
     url: "https://www.linkedin.com/in/aleksandra-babenko"
   },
+  {
+    name: "GitHub", 
+    image: "/icons/git.svg",
+    url: "https://github.com/aleksandrababenko91"
+  },
 
 ];

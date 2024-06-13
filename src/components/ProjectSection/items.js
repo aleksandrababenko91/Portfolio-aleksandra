@@ -5,7 +5,15 @@ export const items = [
     height: "200",
     title: "Library Project",
     description: "Library project is a project created during Buutti Trainee Academy 2023, Tampere(updated in february 2024)) ",
-    link: "https://github.com/aleksandrababenko91/libraryApp-updated",
+    link: "https://library-ivory-one.vercel.app/",
+  },
+  {
+    img: "/images/landing.png",
+    width: "300",
+    height: "200",
+    title: "Landing Page",
+    description: "Project Landing Page for Venture Company. Next.js, SCSS module, Adaptive(mobile, desctop)",
+    link: "https://landing-page-delta-orpin.vercel.app/",
   },
   {
     img: "/images/task.jpg",
