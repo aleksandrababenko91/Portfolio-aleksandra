@@ -1,0 +1,21 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("app/page",{
+
+/***/ "(app-pages-browser)/./src/components/ProjectSection/project.module.scss":
+/*!***********************************************************!*\
+  !*** ./src/components/ProjectSection/project.module.scss ***!
+  \***********************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("// extracted by mini-css-extract-plugin\nmodule.exports = {\"container\":\"project_container__8BoRB\",\"embla\":\"project_embla__BYn95\",\"emblaViewport\":\"project_emblaViewport__1_qs4\",\"emblaContainer\":\"project_emblaContainer__B5jDr\",\"emblaSlide\":\"project_emblaSlide__YT3CP\",\"emblaSlideNumber\":\"project_emblaSlideNumber__I8LLg\",\"emblaControls\":\"project_emblaControls__hiG5O\",\"emblaButtons\":\"project_emblaButtons__tQ5ss\",\"emblaButton\":\"project_emblaButton__VQ3PD\",\"emblaButtonSvg\":\"project_emblaButtonSvg__prrM9\",\"emblaDots\":\"project_emblaDots__bpBBD\",\"emblaDot\":\"project_emblaDot__JkXTe\",\"emblaDot--selected\":\"project_emblaDot--selected__Q7yMU\"};\n    if(true) {\n      // 1718746420822\n      var cssReload = __webpack_require__(/*! ./node_modules/next/dist/compiled/mini-css-extract-plugin/hmr/hotModuleReplacement.js */ \"(app-pages-browser)/./node_modules/next/dist/compiled/mini-css-extract-plugin/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"/_next/\",\"esModule\":false,\"locals\":true});\n      module.hot.dispose(cssReload);\n      \n    }\n  \nmodule.exports.__checksum = \"07199180980a\"\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL3NyYy9jb21wb25lbnRzL1Byb2plY3RTZWN0aW9uL3Byb2plY3QubW9kdWxlLnNjc3MiLCJtYXBwaW5ncyI6IkFBQUE7QUFDQSxrQkFBa0I7QUFDbEIsT0FBTyxJQUFVO0FBQ2pCO0FBQ0Esc0JBQXNCLG1CQUFPLENBQUMsd01BQW9KLGNBQWMsc0RBQXNEO0FBQ3RQLE1BQU0sVUFBVTtBQUNoQjtBQUNBO0FBQ0E7QUFDQSx5QkFBeUIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vc3JjL2NvbXBvbmVudHMvUHJvamVjdFNlY3Rpb24vcHJvamVjdC5tb2R1bGUuc2Nzcz9hNDMxIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpblxubW9kdWxlLmV4cG9ydHMgPSB7XCJjb250YWluZXJcIjpcInByb2plY3RfY29udGFpbmVyX184Qm9SQlwiLFwiZW1ibGFcIjpcInByb2plY3RfZW1ibGFfX0JZbjk1XCIsXCJlbWJsYVZpZXdwb3J0XCI6XCJwcm9qZWN0X2VtYmxhVmlld3BvcnRfXzFfcXM0XCIsXCJlbWJsYUNvbnRhaW5lclwiOlwicHJvamVjdF9lbWJsYUNvbnRhaW5lcl9fQjVqRHJcIixcImVtYmxhU2xpZGVcIjpcInByb2plY3RfZW1ibGFTbGlkZV9fWVQzQ1BcIixcImVtYmxhU2xpZGVOdW1iZXJcIjpcInByb2plY3RfZW1ibGFTbGlkZU51bWJlcl9fSThMTGdcIixcImVtYmxhQ29udHJvbHNcIjpcInByb2plY3RfZW1ibGFDb250cm9sc19faGlHNU9cIixcImVtYmxhQnV0dG9uc1wiOlwicHJvamVjdF9lbWJsYUJ1dHRvbnNfX3RRNXNzXCIsXCJlbWJsYUJ1dHRvblwiOlwicHJvamVjdF9lbWJsYUJ1dHRvbl9fVlEzUERcIixcImVtYmxhQnV0dG9uU3ZnXCI6XCJwcm9qZWN0X2VtYmxhQnV0dG9uU3ZnX19wcnJNOVwiLFwiZW1ibGFEb3RzXCI6XCJwcm9qZWN0X2VtYmxhRG90c19fYnBCQkRcIixcImVtYmxhRG90XCI6XCJwcm9qZWN0X2VtYmxhRG90X19Ka1hUZVwiLFwiZW1ibGFEb3QtLXNlbGVjdGVkXCI6XCJwcm9qZWN0X2VtYmxhRG90LS1zZWxlY3RlZF9fUTd5TVVcIn07XG4gICAgaWYobW9kdWxlLmhvdCkge1xuICAgICAgLy8gMTcxODc0NjQyMDgyMlxuICAgICAgdmFyIGNzc1JlbG9hZCA9IHJlcXVpcmUoXCIvVXNlcnMvYWxla3NhbmRyYWJhYmVua28vRG9jdW1lbnRzL0dpdEh1Yi9Qb3J0Zm9saW8tYWxla3NhbmRyYS9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2NvbXBpbGVkL21pbmktY3NzLWV4dHJhY3QtcGx1Z2luL2htci9ob3RNb2R1bGVSZXBsYWNlbWVudC5qc1wiKShtb2R1bGUuaWQsIHtcInB1YmxpY1BhdGhcIjpcIi9fbmV4dC9cIixcImVzTW9kdWxlXCI6ZmFsc2UsXCJsb2NhbHNcIjp0cnVlfSk7XG4gICAgICBtb2R1bGUuaG90LmRpc3Bvc2UoY3NzUmVsb2FkKTtcbiAgICAgIFxuICAgIH1cbiAgXG5tb2R1bGUuZXhwb3J0cy5fX2NoZWNrc3VtID0gXCIwNzE5OTE4MDk4MGFcIlxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(app-pages-browser)/./src/components/ProjectSection/project.module.scss\n"));
+
+/***/ })
+
+});
