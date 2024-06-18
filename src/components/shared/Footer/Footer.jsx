@@ -12,9 +12,6 @@ export default function Footer () {
   return(
     <footer>
       <div className={styles.footer}>
-        {/* <div className={styles.links}>
-          <MenuSection />
-        </div> */}
         <div className={styles.icon}>
           {items.map((item) => {
             return <SocialIcons key={uuidv4()}  item={item}/>

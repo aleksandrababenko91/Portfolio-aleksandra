@@ -1,7 +1,17 @@
 export const navLinks = [
-	{ name: "Main", url: "/"},
-	{ name: "CV", url: "/cv"},
-	{ name: "Projects", url: "/projects"},
-	{ name: "Tools", url: "/tools"},
-	{ name: "Experience", url: "/experience"},
+	{ 
+    name: "linkedin", 
+    image: "/icons/linkedin.svg",
+    url: "https://www.linkedin.com/in/aleksandra-babenko"
+  },   
+  {
+    name: "telegram", 
+    image: "/icons/telegram.svg",
+    url: "https://www.linkedin.com/in/aleksandra-babenko"
+  },
+  {
+    name: "GitHub", 
+    image: "/icons/git.svg",
+    url: "https://github.com/aleksandrababenko91"
+  },
 ];
