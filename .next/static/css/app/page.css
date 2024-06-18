@@ -3,144 +3,113 @@
   \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
 .cvCard_cardStyle__xv5ww {
-  border-bottom: 1px solid #2e0535;
-  padding: 0px 32px 8px 48px;
-  width: 1236px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 24px;
+  min-width: 288px;
+  max-width: 720px;
   height: -moz-fit-content;
   height: fit-content;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  position: relative;
-  gap: 48px;
-  width: 100%;
+  border-bottom: 1px solid #2e0535;
+  padding: 0px 0px 8px 0px;
 }
-@media (min-width: 320px) and (max-width: 768px) {
+.cvCard_cardStyle__xv5ww .cvCard_cardWrapper__1s7JT {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cvCard_cardStyle__xv5ww .cvCard_svgWrapper__A_7Yi {
+  width: 30%;
+  height: 30%;
+  position: relative;
+}
+@media only screen and (min-width: 768px) {
   .cvCard_cardStyle__xv5ww {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    flex-direction: column;
-    gap: 24px;
-    width: 100%;
+    min-width: 720px;
+    max-width: 1236px;
     height: -moz-fit-content;
     height: fit-content;
-  }
-  .cvCard_cardStyle__xv5ww .cvCard_ellipseWrapper__uXuOV {
-    width: 70%;
-    height: 80%;
   }
   .cvCard_cardStyle__xv5ww .cvCard_cardWrapper__1s7JT {
-    width: -moz-fit-content;
-    width: fit-content;
+    min-width: 300px;
+    max-width: 400px;
+    max-height: 189px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .cvCard_cardStyle__xv5ww {
+    padding: 0px 32px 8px 48px;
+    min-width: 1236px;
+    max-width: 1320px;
     height: -moz-fit-content;
     height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    gap: 48px;
   }
   .cvCard_cardStyle__xv5ww .cvCard_svgWrapper__A_7Yi {
     width: 80%;
     height: 100%;
   }
-}
-@media (min-width: 769px) and (max-width: 1366px) {
-  .cvCard_cardStyle__xv5ww {
-    gap: 24px;
-    padding: 0px 0px 8px 0px;
+  .cvCard_cardStyle__xv5ww .cvCard_cardWrapper__1s7JT {
+    min-width: 400px;
+    height: 157px;
+    position: relative;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-start;
-    width: 100%;
-    max-height: 189px;
   }
 }
-@media (min-width: 1367px) and (max-width: 1920px) {
+@media only screen and (min-width: 1920px) {
   .cvCard_cardStyle__xv5ww {
+    min-width: 1320px;
     width: 100%;
-    gap: 48px;
   }
-}
-
-.cvCard_cardStyle__xv5ww:nth-child(odd) .cvCard_ellipseWrapper__uXuOV {
-  background-color: rgb(226, 185, 213);
-  fill: #e2b9d5;
 }
 
 .cvCard_textCard__dTc_s {
-  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 288px;
+  max-width: 1920px;
   height: -moz-fit-content;
   height: fit-content;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 12px;
 }
-@media (min-width: 320px) and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .cvCard_textCard__dTc_s {
-    width: 100%;
-    display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: column;
-    gap: 12px;
-    padding: 0px 0px 8px 0px;
-  }
-}
-@media (min-width: 769px) and (max-width: 1366px) {
-  .cvCard_textCard__dTc_s {
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
+    min-width: 397px;
     gap: 12px;
   }
 }
-@media (min-width: 1367px) and (max-width: 1920px) {
+@media only screen and (min-width: 1366px) {
   .cvCard_textCard__dTc_s {
     gap: 12px;
-    width: 800px;
+    min-width: 712px;
   }
 }
-
-.cvCard_header__Ex7vW {
-  font-family: "Montserrat", sans-serif;
-  font-size: 24px;
-  letter-spacing: 0.01em;
-  font-weight: 500;
-  line-height: 150%;
-  color: #fcfcfc;
-}
-.cvCard_header__Ex7vW:hover, .cvCard_header__Ex7vW:focus {
-  color: #c0a4b7;
-}
-@media (min-width: 320px) and (max-width: 768px) {
-  .cvCard_header__Ex7vW {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.4;
-    letter-spacing: 0.01em;
-    color: #fcfcfc;
-  }
-}
-@media (min-width: 769px) and (max-width: 1366px) {
-  .cvCard_header__Ex7vW {
-    font-family: "Open Sans", sans-serif;
-    font-size: 18px;
-    letter-spacing: 0.01em;
-    font-weight: 600;
-    line-height: 150%;
-  }
-}
-@media (min-width: 1367px) and (max-width: 1920px) {
-  .cvCard_header__Ex7vW {
-    font-family: "Open Sans", sans-serif;
-    font-size: 18px;
-    letter-spacing: 0.01em;
-    font-weight: 600;
-    line-height: 150%;
+@media only screen and (min-width: 1920px) {
+  .cvCard_textCard__dTc_s {
+    gap: 12px;
+    min-width: 800px;
   }
 }
 
@@ -152,25 +121,7 @@
   font-weight: 400;
   line-height: 150%;
 }
-@media (min-width: 320px) and (max-width: 768px) {
-  .cvCard_text__p8UTc {
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    letter-spacing: 0.01em;
-    font-weight: 400;
-    line-height: 150%;
-  }
-}
-@media (min-width: 769px) and (max-width: 1366px) {
-  .cvCard_text__p8UTc {
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    letter-spacing: 0.01em;
-    font-weight: 400;
-    line-height: 150%;
-  }
-}
-@media (min-width: 1367px) and (max-width: 1920px) {
+@media only screen and (min-width: 768px) {
   .cvCard_text__p8UTc {
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
@@ -179,28 +130,14 @@
     line-height: 150%;
   }
 }
-
-.cvCard_ellipseWrapper__uXuOV {
-  width: 300px;
-  height: 157px;
-  position: absolute;
-  background-color: rgba(226, 185, 213, 0);
-  border-radius: 100%;
-  fill: #e2b9d5;
-  filter: blur(30px);
-}
-
-.cvCard_svgWrapper__A_7Yi {
-  position: relative;
-}
-
-.cvCard_cardWrapper__1s7JT {
-  width: 100%;
-  height: 157px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media only screen and (min-width: 1366px) {
+  .cvCard_text__p8UTc {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    font-weight: 400;
+    line-height: 150%;
+  }
 }
 /*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/CVSection/cvSection.module.scss ***!
@@ -209,39 +146,93 @@
 .cvSection_mainContainer___sw7E {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
-  gap: 48px;
+  gap: 20px;
+  padding: 32px 20px;
+  min-width: 288px;
+  max-width: 668px;
+  height: -moz-fit-content;
+  height: fit-content;
 }
-
-.cvSection_centerContainer__pBKBQ {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(192, 19, 60, 0.45);
-  border-radius: 30px;
-  padding: 60px 64px;
-  width: 1366px;
-  height: 659px;
+@media only screen and (min-width: 768px) {
+  .cvSection_mainContainer___sw7E {
+    gap: 32px;
+    padding: 48px 24px;
+    min-width: 668px;
+    max-width: 1238px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .cvSection_mainContainer___sw7E {
+    min-width: 1238px;
+    max-width: 1920px;
+    padding: 60px 64px;
+    gap: 48px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .cvSection_mainContainer___sw7E {
+    gap: 56px;
+    padding: 72px 120px;
+    min-width: 1920px;
+    max-width: 100%;
+  }
 }
 
 .cvSection_cardContainer__8_yiF {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  min-width: 288px;
+  max-width: 668px;
+  height: -moz-fit-content;
+  height: fit-content;
   gap: 24px;
+  padding: 60px 64px;
+  background: #d9859e;
+  border-radius: 20px;
+}
+@media only screen and (min-width: 768px) {
+  .cvSection_cardContainer__8_yiF {
+    min-width: 668px;
+    max-width: 1138px;
+    padding: 60px 64px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .cvSection_cardContainer__8_yiF {
+    min-width: 1138px;
+    max-width: 1320px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .cvSection_cardContainer__8_yiF {
+    min-width: 1320px;
+    max-width: 100%;
+  }
 }
 
-.cvSection_text__iNbr6 {
-  align-items: center;
-  justify-content: center;
-  display: grid;
+.cvSection_title__8hwcD {
+  text-align: center;
+  width: 100%;
   font-family: "Open Sans", sans-serif;
-  font-size: 40px;
+  font-size: 26px;
   letter-spacing: 0.01em;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 150%;
+  color: #fcfcfc;
+}
+@media only screen and (min-width: 768px) {
+  .cvSection_title__8hwcD {
+    font-size: 32px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .cvSection_title__8hwcD {
+    font-size: 40px;
+  }
 }
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/ExperienceSection/ExperienceCard/ExperienceCard.module.scss ***!
