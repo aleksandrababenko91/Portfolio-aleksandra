@@ -6,7 +6,7 @@ export default function HeroCard({item}) {
   return(
       <div className={styles.cardContainer}>
         <div className={styles.image} >
-          <Image src={img} width={200} height={200} alt="photo_8"/>
+          <Image src={img} width={200} height={200} alt="photo_8" priority/>
         </div>
       <div className={styles.text}>
         <div className={styles.name}>
