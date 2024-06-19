@@ -3,8 +3,7 @@ import styles from './footer.module.scss';
 import { v4 as uuidv4 } from 'uuid';
 import {items} from './items';
 import '../../../app/styles/global.scss'
-import MenuSection from "./MenuSection/MenuSection";
-import Image from "next/image";
+
 
 
 export default function Footer () {

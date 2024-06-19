@@ -1,17 +1,7 @@
-@use '../../app/styles/mixins' as mx;
+@use '../../app/styles/mixins' as mixin;
 @use '../../app/styles/variables' as var;
 
-.logoContainer {
-  max-width: fit-content;
-  height: fit-content;
-  display: flex; 
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
 
-}
 
 .container {
   padding: 20px;
@@ -21,7 +11,41 @@
   align-items: center;
   justify-content: center;
   height: fit-content;
+  @include mixin.media-q("md") { 
+    align-items: center;
+
+  }
+
 }
+.logoContainer {
+  min-width: 288px;
+  max-width: 568px;
+  height: fit-content;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  @include mixin.media-q("md") { 
+  min-width: 568px;
+  max-width: 1238px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  }
+  @include mixin.media-q("xl") { 
+    min-width: 1238px;
+  max-width: 1920px;
+
+  }
+  @include mixin.media-q("xl") { 
+    min-width: 1920px;
+    max-width: 100%;
+  }
+
+
+}
+
 
 .header {
   display: flex;
@@ -30,9 +54,11 @@
   flex-direction: row;
   gap: 10px;
   padding: 10px;
-  width: 453px;
+  width: fit-content;
   height: 80px;
-  @include mx.apply-font-styles(var.$h1-font);
-  color: var.$secondary-black
-
+  @include mixin.apply-font-styles(var.$h1-font);
+  color: var.$secondary-black;
+  @include mixin.media-q("md") { 
+  align-items: center;
+  }
 }

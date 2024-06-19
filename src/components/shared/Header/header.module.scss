@@ -21,8 +21,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 40px;
-  padding: 12px;
   width: 592px;
   height: 51px;
   @include mixin.apply-font-styles(var.$h3-font);

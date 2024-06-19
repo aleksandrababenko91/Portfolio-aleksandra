@@ -239,7 +239,8 @@
   \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
 .ExperienceCard_item__CXKtg {
-  width: 400px;
+  min-width: 150px;
+  max-width: 300px;
   height: -moz-fit-content;
   height: fit-content;
   margin: 20px auto;
@@ -247,42 +248,95 @@
   align-items: center;
   justify-content: center;
 }
+@media only screen and (min-width: 768px) {
+  .ExperienceCard_item__CXKtg {
+    min-width: 300px;
+    max-width: 400px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .ExperienceCard_item__CXKtg {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
 
 .ExperienceCard_date__1UzlF {
   font-family: "Montserrat", sans-serif;
-  font-size: 24px;
+  font-size: 16px;
   letter-spacing: 0.01em;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 150%;
+}
+@media only screen and (min-width: 1366px) {
+  .ExperienceCard_date__1UzlF {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    font-weight: 500;
+    line-height: 150%;
+  }
 }
 
 .ExperienceCard_position__a5Uv_ {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0.01em;
   font-weight: 400;
-  line-height: 150%;
+  line-height: 1.5;
   color: #030110;
+}
+@media only screen and (min-width: 1366px) {
+  .ExperienceCard_position__a5Uv_ {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    font-weight: 400;
+    line-height: 150%;
+  }
 }
 
 .ExperienceCard_description__QaRrI {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0.01em;
   font-weight: 400;
-  line-height: 150%;
+  line-height: 1.5;
+}
+@media only screen and (min-width: 1366px) {
+  .ExperienceCard_description__QaRrI {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    font-weight: 400;
+    line-height: 150%;
+  }
 }
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/ExperienceSection/ExperienceSection.module.scss ***!
   \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
 .ExperienceSection_containerExperience__fP3Ws {
+  min-width: 288px;
+  max-width: 668px;
   height: -moz-fit-content;
   height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+@media only screen and (min-width: 768px) {
+  .ExperienceSection_containerExperience__fP3Ws {
+    min-width: 600px;
+    max-width: 1238px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .ExperienceSection_containerExperience__fP3Ws {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
 }
 
 .ExperienceSection_header__O34Z6 {
@@ -311,8 +365,21 @@
   justify-content: center;
   align-items: center;
   background-color: rgba(167, 88, 54, 0.2);
-  width: 1000px;
+  min-width: 288px;
+  max-width: 668px;
   border-radius: 40px;
+}
+@media only screen and (min-width: 768px) {
+  .ExperienceSection_containerItems__jDIge {
+    min-width: 668px;
+    max-width: 1238px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .ExperienceSection_containerItems__jDIge {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
 }
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/HeroSection/HeroSection.module.scss ***!
@@ -321,10 +388,77 @@
 .HeroSection_container__F0FJb {
   height: -moz-fit-content;
   height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 30px;
+}
+
+.HeroSection_contentContainer__ucPna {
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+@media only screen and (min-width: 768px) {
+  .HeroSection_contentContainer__ucPna {
+    flex-direction: row;
+  }
+}
+
+.HeroSection_contentCard__Oh21F {
+  background-color: #fcfcfc;
+  width: 288px;
+  height: 150px;
+  border: 1px solid rgba(148, 146, 146, 0.984);
+  border-radius: 25px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  display: flex;
+  padding: 20px;
+  margin: 10px;
+}
+@media only screen and (min-width: 768px) {
+  .HeroSection_contentCard__Oh21F {
+    min-width: 300px;
+    max-width: 600px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .HeroSection_contentCard__Oh21F {
+    min-width: 600px;
+    max-width: 100%;
+  }
+}
+
+.HeroSection_textArea__whyi7 {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  line-height: 150%;
+  color: black;
+}
+
+.HeroSection_text__rllu_ {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 150%;
+  color: black;
 }
 
 .HeroSection_cardContainer__8M4TN {
@@ -334,15 +468,28 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-width: 288px;
+  max-width: 668px;
+  height: fit-content;
 }
 
 .HeroSection_name__2vDQV {
   font-family: "Open Sans", sans-serif;
-  font-weight: 700;
-  font-size: 54px;
-  line-height: 1.5;
+  font-size: 18px;
   letter-spacing: 0.01em;
+  font-weight: 600;
+  line-height: 150%;
   color: #fcfcfc;
+}
+@media only screen and (min-width: 1366px) {
+  .HeroSection_name__2vDQV {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #fcfcfc;
+  }
 }
 
 .HeroSection_text__rllu_ {
@@ -360,19 +507,38 @@
 
 .HeroSection_role__aRzfc {
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 1.5;
+  font-size: 14px;
   letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 1.5;
   text-align: center;
   color: #030110;
+  text-align: justify;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+@media only screen and (min-width: 1366px) {
+  .HeroSection_role__aRzfc {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    font-weight: 400;
+    line-height: 150%;
+  }
 }
 
 .HeroSection_image__WIVMR {
   width: -moz-fit-content;
   width: fit-content;
-  height: 300px;
-  border-radius: 300px;
+  height: 200px;
+  border-radius: 200px;
+}
+@media only screen and (min-width: 1366px) {
+  .HeroSection_image__WIVMR {
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 300px;
+  }
 }
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/shared/ProjectCard/ProjectCard.module.scss ***!
@@ -503,19 +669,6 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/ToolsSection/ToolsSection.module.scss ***!
   \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
-.ToolsSection_logoContainer__mAOlr {
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-}
-
 .ToolsSection_container__r7U7m {
   padding: 20px;
   width: -moz-fit-content;
@@ -527,6 +680,44 @@
   height: -moz-fit-content;
   height: fit-content;
 }
+@media only screen and (min-width: 768px) {
+  .ToolsSection_container__r7U7m {
+    align-items: center;
+  }
+}
+
+.ToolsSection_logoContainer__mAOlr {
+  min-width: 288px;
+  max-width: 568px;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+@media only screen and (min-width: 768px) {
+  .ToolsSection_logoContainer__mAOlr {
+    min-width: 568px;
+    max-width: 1238px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .ToolsSection_logoContainer__mAOlr {
+    min-width: 1238px;
+    max-width: 1920px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .ToolsSection_logoContainer__mAOlr {
+    min-width: 1920px;
+    max-width: 100%;
+  }
+}
 
 .ToolsSection_header__udRsP {
   display: flex;
@@ -535,7 +726,8 @@
   flex-direction: row;
   gap: 10px;
   padding: 10px;
-  width: 453px;
+  width: -moz-fit-content;
+  width: fit-content;
   height: 80px;
   font-family: "Open Sans", sans-serif;
   font-size: 40px;
@@ -543,6 +735,11 @@
   font-weight: 600;
   line-height: 150%;
   color: #030110;
+}
+@media only screen and (min-width: 768px) {
+  .ToolsSection_header__udRsP {
+    align-items: center;
+  }
 }
 /*!***************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./node_modules/aos/dist/aos.css ***!

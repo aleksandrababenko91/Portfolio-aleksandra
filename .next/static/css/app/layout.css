@@ -21,8 +21,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 40px;
-  padding: 12px;
   width: 592px;
   height: 51px;
   font-family: "Open Sans", sans-serif;
@@ -199,17 +197,4 @@ body.lock {
   display: flex;
   gap: 30px;
   color: black;
-}
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/shared/Footer/MenuSection/menu.module.scss ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.menu_menu__uBkQq {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
-  column-gap: 42px;
-  row-gap: 7px;
-  flex-wrap: wrap;
-  padding: 10px 10px;
 }

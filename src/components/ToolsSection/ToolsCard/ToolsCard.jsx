@@ -1,7 +1,7 @@
 import styles from '../ToolsCard/ToolsCard.module.scss';
 
 export default function ToolsCard ({item}) {
-  const {img, title, width, height} = item;
+  const {img, title, width, height, className} = item;
 
   return (
     <div className={styles.card}>

@@ -1,4 +1,4 @@
-@use '../../../app/styles/mixins' as mx;
+@use '../../../app/styles/mixins' as mixin;
 @use '../../../app/styles/variables' as var;
 
 .card {
@@ -11,4 +11,6 @@
     gap: 10px;
     color: var.$secondary-black
 
+
 }
+

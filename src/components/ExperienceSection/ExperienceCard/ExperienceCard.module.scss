@@ -3,22 +3,40 @@
 
 
 .item {
-  width: 400px;
+  min-width: 150px;
+  max-width: 300px;
   height: fit-content;
   margin: 20px auto;
   padding: 25px;
   align-items: center;
   justify-content: center;
+  @include mx.media-q("md") {
+    min-width: 300px;
+    max-width: 400px;
+  }
+  @include mx.media-q("xl") {
+    width: fit-content;
+  }
  
 }
 
 .date {  
-  @include mx.apply-font-styles(var.$h2-font);
+  @include mx.apply-font-styles(var.$text-16-font);
+  @include mx.media-q("xl") {
+    @include mx.apply-font-styles(var.$h2-font);
+  }
 }
 .position  {  
-  @include mx.apply-font-styles(var.$text-16-font);
+  @include mx.apply-font-styles(var.$text-14-font);
+  @include mx.media-q("xl") {
+    @include mx.apply-font-styles(var.$text-16-font);
+  }
   color: var.$secondary-black;
 }
 .description {
-  @include mx.apply-font-styles(var.$text-16-font);
+  @include mx.apply-font-styles(var.$text-14-font);
+
+  @include mx.media-q("xl") {
+    @include mx.apply-font-styles(var.$text-16-font);
+  }
 }

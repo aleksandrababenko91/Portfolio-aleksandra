@@ -3,26 +3,86 @@
 
 .container {
   height: fit-content;
+  width: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 30px;
 }
 
+.contentContainer{
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  @include mixin.media-q("md") { 
+    flex-direction: row;
+  }
+
+}
+.contentCard {
+  background-color: #fcfcfc;
+  width: 288px;
+  height: 150px;
+  border: 1px solid rgba(148, 146, 146, 0.984);
+  border-radius: 25px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  display: flex;
+  padding: 20px;
+  margin: 10px;
+  @include mixin.media-q("md") { 
+  min-width: 300px;
+  max-width: 600px;
+  }
+  @include mixin.media-q("xl") { 
+  min-width: 600px;
+  max-width: 100%;
+  }
+
+}
+.textArea{
+  width: fit-content;
+  height: fit-content;
+  @include mixin.apply-font-styles(var.$h3-font);
+  color:black;
+ 
+}
+
+.text{
+  @include mixin.apply-font-styles(var.$text-16-font);
+  color:black;
+
+}
 .cardContainer {
   height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-width: 288px;
+  max-width: 668px;
+  height: fit-content;
+
 }
 .name {
+  @include mixin.apply-font-styles(var.$h3-font);
+  color:#fcfcfc;
+
+  @include mixin.media-q("xl") { 
+
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 54px;
   line-height: 1.5;
   letter-spacing: 0.01em;
   color: #fcfcfc;
+  }
 }
 
 .text{
@@ -37,18 +97,24 @@
 }
 
 .role {
-  
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 1.5;
-  letter-spacing: 0.01em;
+  @include mixin.apply-font-styles(var.$text-14-font);
   text-align: center;
   color: var.$secondary-black;
+  text-align:justify;
+  padding: 10px;
+  margin-bottom: 20px;
+  @include mixin.media-q("xl") { 
+    @include mixin.apply-font-styles(var.$text-20-font);
+
+  }
 }
 
 .image {
   width: fit-content;
-  height: 300px;
-  border-radius: 300px;
+  height: 200px;
+  border-radius: 200px;
+  @include mixin.media-q("xl") { 
+    width: fit-content;
+    height: 300px;
+  }
 }

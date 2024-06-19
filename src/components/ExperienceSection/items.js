@@ -26,13 +26,18 @@ export const items = [
   },
   {
     date: "Apr 2022 - Dec 2023",
-    position: "Studied Finnish language and culture and passed the YKI test (taso B 1.2).",
+    position: "Studied Finnish language and culture and passed the YKI test (taso B 2.2).",
     description: "Integration training Arffman Finland Oy, Finland",
   },
   {
     date: "Jan 2018-Dec 2022",
     position: "Parenting, relocation and professional development,",
     description: "Finnish language, IT education, developed valuable industry connections.",
+  },
+  {
+    date: "Jun 2014-Dec 2018",
+    position: "Vocal coach, musician, stage manager, artist, China(Guangzhou)/Saint Petersburg",
+    description: "Musical Culture and Art",
   }
 ]
 

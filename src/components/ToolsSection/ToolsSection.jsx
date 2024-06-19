@@ -13,7 +13,7 @@ export default function ToolsSection () {
       <div className={styles.logoContainer}>
         {items.map((item) => (
           <div key={uuidv4()}>
-              <ToolsCard item={item}/>
+              <ToolsCard  item={item}/>
           </div>
         ))}
       </div>
