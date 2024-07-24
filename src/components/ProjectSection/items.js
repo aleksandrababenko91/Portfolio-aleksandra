@@ -47,6 +47,22 @@ export const items = [
     description: "First steps in creating and styling",
     link: "https://aleksandrababenko91.github.io/portfolio/"
   },
+  {
+    img: "/images/baza.png",
+    width: "300",
+    height: "200",
+    title: "Baza Trainee 2.0.",
+    description: "App for Baza Trainee. Now over developing.My sections: Partners,  Structure on Main Page; Join Project Animation on Internship Page",
+    link: "https://baza-2-front-one.vercel.app/en"
+  },
+  {
+    img: "/images/boop.png",
+    width: "300",
+    height: "200",
+    title: "BOOP",
+    description: "App for Ukrainian Association of Hospital Clowns. Now over developing. My sections: Partners, Footer on Main Page; Team Section on About us Page",
+    link: "https://boop-alpha.vercel.app/en"
+  },
   
 
 ];
