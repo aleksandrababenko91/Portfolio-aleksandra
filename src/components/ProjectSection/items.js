@@ -1,11 +1,20 @@
 export const items = [
   {
-    img: "/images/lib.jpg",
+    img: "/images/oda.png",
     width: "300",
     height: "200",
-    title: "Library Project",
-    description: "Library project is a project created during Buutti Trainee Academy 2023, Tampere(updated in february 2024)) ",
-    link: "https://library-ivory-one.vercel.app/",
+    title: "Restaurant Oda. Helsinki",
+    description: "App for Georgian restaurants in Helsinki, currently under development."
+,
+    link: "https://ravintola-oda-helsinki.vercel.app/fi"
+  },
+  {
+    img: "/images/boop.png",
+    width: "300",
+    height: "200",
+    title: "BOOP",
+    description: "App for the Ukrainian Association of Hospital Clowns,in collaboration with a developer team.",
+    link: "https://boop-alpha.vercel.app/en"
   },
   {
     img: "/images/landing.png",
@@ -16,11 +25,27 @@ export const items = [
     link: "https://landing-page-delta-orpin.vercel.app/",
   },
   {
+    img: "/images/baza.png",
+    width: "300",
+    height: "200",
+    title: "Baza Trainee 2.0.",
+    description: "App for Baza Trainee, currently under development in collaboration with a developer team from Ukraine.",
+    link: "https://baza-2-front-one.vercel.app/en"
+  },
+  {
+    img: "/images/lib.jpg",
+    width: "300",
+    height: "200",
+    title: "Library Project",
+    description: "Library project is a project created during Buutti Trainee Academy 2023,Tampere(upd.feb 24)) ",
+    link: "https://library-ivory-one.vercel.app/",
+  },
+  {
     img: "/images/task.jpg",
     width: "300",
     height: "200",
     title: "TODO APP",
-    description: "ToDoApp is a task management application designed to help users organize and track their tasks efficiently. ",
+    description: "ToDoApp is a task management application designed to help users organize their tasks efficiently. ",
     link: "https://github.com/aleksandrababenko91/ToDoApp",
   },
   {
@@ -47,22 +72,4 @@ export const items = [
     description: "First steps in creating and styling",
     link: "https://aleksandrababenko91.github.io/portfolio/"
   },
-  {
-    img: "/images/baza.png",
-    width: "300",
-    height: "200",
-    title: "Baza Trainee 2.0.",
-    description: "App for Baza Trainee. Now over developing.My sections: Partners,  Structure on Main Page; Join Project Animation on Internship Page",
-    link: "https://baza-2-front-one.vercel.app/en"
-  },
-  {
-    img: "/images/boop.png",
-    width: "300",
-    height: "200",
-    title: "BOOP",
-    description: "App for Ukrainian Association of Hospital Clowns. Now over developing. My sections: Partners, Footer on Main Page; Team Section on About us Page",
-    link: "https://boop-alpha.vercel.app/en"
-  },
-  
-
 ];
