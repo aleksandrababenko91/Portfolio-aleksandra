@@ -1,11 +1,18 @@
 export const items = [
   {
+    img: "/images/geegoproject.png",
+    width: "300",
+    height: "200",
+    title: "Geego Kids 2.0. Web version",
+    description: "Built the Front-end and ensured its responsiveness,implemented multilingual/animations.",
+    link: "https://geego-kids-r.vercel.app/"
+  },
+  {
     img: "/images/oda.png",
     width: "300",
     height: "200",
     title: "Restaurant Oda. Helsinki",
-    description: "App for Georgian restaurants in Helsinki, currently under development."
-,
+    description: "App for Georgian restaurants in Helsinki, currently under development.",
     link: "https://ravintola-oda-helsinki.vercel.app/fi"
   },
   {

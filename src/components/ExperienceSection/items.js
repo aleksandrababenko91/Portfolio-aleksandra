@@ -1,6 +1,11 @@
 export const items = [
   {
-    date: "Apr 2024 - Present",
+    date: "Sep 2024 - Feb 2025",
+    position: "Front-End Developer Intern, Geego Kids Oy, Tampere, Finland",
+    description: "My task was to redesign the frontend to make it more accessible and user-friendly for elementary school teachers."
+  },
+  {
+    date: "Apr 2024 - Sep 2024",
     position: "Front-End Developer, Baza Trainee Ukraine, Kyiv",
     description: "Developed social projects with developers team, remote from Tampere."
   },
