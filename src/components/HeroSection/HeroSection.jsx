@@ -8,8 +8,8 @@ export default function HeroSection () {
 
   return(
     <section className={styles.container}>
-      <div>
-        <Image priority  src='/images/8.jpg' alt='Hero image' width={100} height={100} className={styles.image} /> 
+      <div className={styles.imageWrapper}>
+        <Image priority  src='/images/sasha.jpeg' alt='Hero image' fill sizes = "100%" className={styles.image} /> 
       </div>
       <div className={styles.contentContainer}>
         <Links url="/about">

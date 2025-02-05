@@ -1,0 +1,182 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/HeroSection/HeroSection.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.HeroSection_imageWrapper__ECzOI {
+  width: 400px;
+  height: 350px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 6%;
+}
+.HeroSection_imageWrapper__ECzOI > img {
+  object-fit: fill;
+}
+
+.HeroSection_container__F0FJb {
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.HeroSection_contentContainer__ucPna {
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+@media only screen and (min-width: 768px) {
+  .HeroSection_contentContainer__ucPna {
+    flex-direction: row;
+  }
+}
+
+.HeroSection_contentCard__Oh21F {
+  background-color: #fcfcfc;
+  width: 288px;
+  height: 150px;
+  border: 1px solid rgba(148, 146, 146, 0.984);
+  border-radius: 25px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  display: flex;
+  padding: 20px;
+  margin: 10px;
+}
+@media only screen and (min-width: 768px) {
+  .HeroSection_contentCard__Oh21F {
+    min-width: 300px;
+    max-width: 600px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .HeroSection_contentCard__Oh21F {
+    min-width: 600px;
+    max-width: 100%;
+  }
+}
+
+.HeroSection_textArea__whyi7 {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  line-height: 150%;
+  color: black;
+}
+
+.HeroSection_text__rllu_ {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 150%;
+  color: black;
+}
+
+.HeroSection_cardContainer__8M4TN {
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 288px;
+  max-width: 668px;
+  height: fit-content;
+}
+
+.HeroSection_name__2vDQV {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  line-height: 150%;
+  color: #fcfcfc;
+}
+@media only screen and (min-width: 1366px) {
+  .HeroSection_name__2vDQV {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #fcfcfc;
+  }
+}
+
+.HeroSection_text__rllu_ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.HeroSection_role__aRzfc {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  color: #030110;
+  text-align: justify;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+@media only screen and (min-width: 1366px) {
+  .HeroSection_role__aRzfc {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    font-weight: 400;
+    line-height: 150%;
+  }
+}
+
+.HeroSection_image__WIVMR {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+}
+@media only screen and (min-width: 1366px) {
+  .HeroSection_image__WIVMR {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.HeroSection_img__2XMCB {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+}
+@media only screen and (min-width: 1366px) {
+  .HeroSection_img__2XMCB {
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+  }
+}

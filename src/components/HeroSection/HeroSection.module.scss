@@ -1,6 +1,19 @@
 @use'../../app/styles/variables' as var;
 @use '../../app/styles/mixins'as mixin;
 
+.imageWrapper{
+  width: 400px;
+  height: 350px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 6%;
+
+  & > img {
+    object-fit:fill;
+  }
+
+}
 .container {
   height: fit-content;
   width: fit-content;
