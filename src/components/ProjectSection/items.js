@@ -5,7 +5,7 @@ export const items = [
     height: "200",
     title: "Geego Kids 2.0. Web version",
     description: "Built the Front-end and ensured its responsiveness,implemented multilingual/animations.",
-    link: "https://geego-kids-r.vercel.app/"
+    link: "https://geego-kids-front.vercel.app/fi"
   },
   {
     img: "/images/oda.png",
